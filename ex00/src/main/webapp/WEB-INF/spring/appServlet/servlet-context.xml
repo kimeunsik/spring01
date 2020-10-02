@@ -21,8 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<!-- base-package 속성값에 해당하는 패키지 내부의 클래스들을 조사, annotation-driven과 같이 결합해서 해당 패키지에 애노테이션 처리가 된 컨트롤러를 작성만 해주면 자동으로 인식되게 함 -->	
 	<context:component-scan base-package="org.zerock.web" />
-	
-	
 	
 </beans:beans>
