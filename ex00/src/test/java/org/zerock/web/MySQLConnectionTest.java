@@ -9,7 +9,7 @@ public class MySQLConnectionTest {
 
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	
-	private static final String URL = "jdbc:mysql://192.168.56.141:3306/zerock";
+	private static final String URL = "jdbc:mysql://192.168.56.141:3306/zerock_spring_20150816";
 	
 	private static final String USER = "zerock";
 	

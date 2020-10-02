@@ -15,7 +15,7 @@
 	
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://192.168.56.141:3306/zerock"></property>
+		<property name="url" value="jdbc:mysql://192.168.56.141:3306/zerock_spring_20150816"></property>
 		<property name="username" value="zerock"></property>
 		<property name="password" value="1234"></property>
 	</bean>
